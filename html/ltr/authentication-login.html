@@ -45,7 +45,7 @@
                         <span class="db"><img src="../../assets/images/logo.png" alt="logo" /></span>
                     </div>
                     <!-- Form -->
-                    <form class="form-horizontal m-t-20" id="loginform" action="home.html">
+                    <form class="form-horizontal m-t-20" id="loginform" action="index.html">
                         <div class="row p-b-30">
                             <div class="col-12">
                                 <div class="input-group mb-3">
@@ -67,7 +67,7 @@
                                 <div class="form-group">
                                     <div class="p-t-20">
                                         <button class="btn btn-info" id="to-recover" type="button"><i class="fa fa-lock m-r-5"></i> Lost password?</button>
-                                        <button class="btn btn-success float-right" href="home.html" id="login" name="action" type="submit">Login</button>
+                                        <button class="btn btn-success float-right" type="submit">Login</button>
                                     </div>
                                 </div>
                             </div>
@@ -91,7 +91,7 @@
                             <!-- pwd -->
                             <div class="row m-t-20 p-t-20 border-top border-secondary">
                                 <div class="col-12">
-                                    <a class="btn btn-success" href="login.html" id="to-login" name="action">Back To Login</a>
+                                    <a class="btn btn-success" href="#" id="to-login" name="action">Back To Login</a>
                                     <button class="btn btn-info float-right" type="button" name="action">Recover</button>
                                 </div>
                             </div>
@@ -127,20 +127,21 @@
     <!-- This page plugin js -->
     <!-- ============================================================== -->
     <script>
-        $('[data-toggle="tooltip"]').tooltip();
-        $(".preloader").fadeOut();
-        // ============================================================== 
-        // Login and Recover Password 
-        // ============================================================== 
-        $('#to-recover').on("click", function() {
-            $("#loginform").slideUp();
-            $("#recoverform").fadeIn();
-        });
-        $('#to-login').click(function() {
 
-            $("#recoverform").hide();
-            $("#loginform").fadeIn();
-        });
+    $('[data-toggle="tooltip"]').tooltip();
+    $(".preloader").fadeOut();
+    // ============================================================== 
+    // Login and Recover Password 
+    // ============================================================== 
+    $('#to-recover').on("click", function() {
+        $("#loginform").slideUp();
+        $("#recoverform").fadeIn();
+    });
+    $('#to-login').click(function(){
+        
+        $("#recoverform").hide();
+        $("#loginform").fadeIn();
+    });
     </script>
 
 </body>

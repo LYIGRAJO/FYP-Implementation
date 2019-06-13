@@ -302,20 +302,20 @@
                 <div class="row">
                     <div class="col-md-6">
                         <div class="card">
-                            <form class="form-horizontal">
+                            <form class="form-horizontal" method="post" action="submit_graduate_coordinator.php">
                                 <div class="card-body">
                                     <fieldset class="form-fieldset">
                                         <p align="center"><strong>POSTGRADUATE STUDENT INFORMATION</strong></p>
                                         <!-- <p><strong>GRADUATE STUDENT INFORMATION</strong> -->
-                                        <input class="form-control " type="ACADEMIC YEAR" id="ACADEMIC YEAR" name="ACADEMIC YEAR" placeholder="ACADEMIC YEAR">
+                                        <input class="form-control " type="ACADEMIC YEAR" id="ACADEMIC YEAR" name="ACADEMIC_YEAR" placeholder="ACADEMIC YEAR">
                                         <br>
-                                        <input class="form-control " type="REGISTERED STUDENTS" id="REGISTERED STUDENTS" name="REGISTERED STUDENTS" placeholder="REGISTERED STUDENT">
+                                        <input class="form-control " type="REGISTERED STUDENTS" id="REGISTERED STUDENTS" name="REG_STUDENTS" placeholder="REGISTERED STUDENT">
                                         <br>
-                                        <input class="form-control" type="ACCEPTED STUDENT" id="ACCEPTED STUDENT" name="ACCEPTED STUDENT" placeholder="ACCEPTED STUDENT">
+                                        <input class="form-control" type="ACCEPTED STUDENT" id="ACCEPTED STUDENT" name="ACCEPTED_STUDENT" placeholder="ACCEPTED STUDENT">
                                         <br>
-                                        <input class="form-control " type="REJECTION STUDENT" id="REJECTION STUDENT" name="REJECTION STUDENT" placeholder="REJECTION STUDENT">
+                                        <input class="form-control " type="REJECTION STUDENT" id="REJECTION STUDENT" name="REJECTION" placeholder="REJECTION STUDENT">
                                         <br>
-                                        <textarea placeholder="COMMENT"></textarea>
+                                        <textarea placeholder="COMMENT" name="COMMENTS"></textarea>
                                         <br>
 
                                         <button class="btn btn-primary btn-block" type="submit">Submit </button></fieldset>
