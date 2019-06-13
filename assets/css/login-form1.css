@@ -1,0 +1,169 @@
+            .flex {
+                display: flex;
+            }
+            
+            .flex.center {
+                justify-content: center;
+            }
+            
+            .center {
+                text-align: center;
+            }
+            
+            .full-height {
+                height: 100%;
+            }
+            
+            html,
+            body {
+                width: 100%;
+                height: 100%;
+            }
+            
+            .form-box {
+                padding: 10px 20px;
+                box-shadow: 0px 0px 15px #000;
+            }
+            
+            .flex.v-center {
+                align-items: center;
+            }
+            
+            .form-box>form {
+                padding-top: 10px;
+                padding-bottom: 20px;
+                padding-left: 40px;
+                padding-right: 40px;
+            }
+            
+            @media (max-width:767px) {
+                .form-box>form {
+                    padding-left: 0;
+                    padding-right: 0;
+                }
+            }
+            
+            .form-box .form-control {
+                margin-bottom: 10px;
+            }
+            
+            .form-box .btn.btn-block {
+                margin-top: 25px;
+            }
+            
+            .form-box img {
+                margin-bottom: 15px;
+            }
+            
+            .avatar.round {
+                border-radius: 50%;
+            }
+            
+            .form-fieldset {
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+            
+            .container {
+                background-image: "UNIT4_management block (1).png";
+            }
+            
+            .avatar {
+                border: 1px solid black;
+                max-width: 100px;
+                max-height: 100px;
+                width: 100px;
+                height: 100px;
+            }
+            
+            .full-height {
+                margin-left: auto;
+            }
+            
+            #left-menu {
+                background-color: gray;
+                padding: 2%;
+                width: 80%;
+            }
+            
+            #Coordinator {
+                background-color: white;
+                margin-right: 0.5%;
+                margin-left: 0.5%;
+                margin-bottom: 2%;
+            }
+            
+            #Coordinator>a {
+                margin-top: 2%;
+                margin-bottom: 2%;
+            }
+            
+            #HOD {
+                background-color: white;
+                margin-right: 0.5%;
+                margin-left: 0.5%;
+                margin-bottom: 2%;
+            }
+            
+            #HOD>a {
+                margin-top: 2%;
+                margin-bottom: 2%;
+            }
+            
+            #Principal {
+                background-color: white;
+                margin-right: 0.5%;
+                margin-left: 0.5%;
+                margin-bottom: 2%;
+            }
+            
+            #Principal>a {
+                margin-top: 2%;
+                margin-bottom: 2%;
+            }
+            
+            #home {
+                background-color: green;
+                margin-right: 0.5%;
+                margin-left: 0.5%;
+                margin-bottom: 2%;
+            }
+            
+            #home>a {
+                margin-top: 2%;
+                margin-bottom: 2%;
+            }
+            
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: dimgrey;
+                color: white;
+            }
+            
+            li {
+                float: left;
+            }
+            
+            li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+            
+            li a:hover:not(.active) {
+                background-color: dimgrey;
+                color: white;
+            }
+            
+            .active {
+                background-color: green;
+            }
+            
+            element.style {
+                text-align: center;
+            }

@@ -1,0 +1,29 @@
+#background {
+    background-color: hsl(hue, saturation, lightness);
+}
+
+#forgot {
+    margin-top: 9%;
+    /* margin-left: 20%; */
+    text-align: center;
+}
+
+#not-register {
+    margin-top: 2%;
+    margin-left: -12%;
+}
+
+#droplist>button {
+    width: 30%;
+}
+
+#heading {
+    width: 100%;
+    background-color: grey;
+}
+
+#heading>h2 {
+    width: 50%;
+}
+
+#button> {}
